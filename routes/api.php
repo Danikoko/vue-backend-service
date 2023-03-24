@@ -29,4 +29,4 @@ Route::controller(InventoryController::class)->group(function () {
     Route::get('inventory/{id}', 'show');
     Route::put('inventory/{id}', 'update');
     Route::delete('inventory/{id}', 'destroy');
-}); 
+});
